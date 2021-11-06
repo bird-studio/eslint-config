@@ -21,12 +21,3 @@ module.exports = {
   extends: ["@bird-studio/eslint-config/preset/node"],
 };
 ```
-
-```js
-// .stylelintrc.js
-
-/** @type {import('stylelint').Configuration} */
-module.exports = {
-  extends: ["@bird-studio/eslint-config/preset/stylelint"],
-};
-```
