@@ -12,3 +12,10 @@
     <img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji">
   </a>
 </p>
+
+```js
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+  extends: ["@bird-studio/eslint-config/preset/node"],
+};
+```
