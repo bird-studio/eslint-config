@@ -14,8 +14,19 @@
 </p>
 
 ```js
+// .eslintrc.js
+
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: ["@bird-studio/eslint-config/preset/node"],
+};
+```
+
+```js
+// .stylelintrc.js
+
+/** @type {import('stylelint').Configuration} */
+module.exports = {
+  extends: ["@bird-studio/eslint-config/preset/stylelint"],
 };
 ```
