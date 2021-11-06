@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/eslint-config/interactive-message">
-    <img src="https://github.com/eslint-config/interactive-message/blob/main/media/logo.png"/>
+  <a href="https://github.com/bird-studio/eslitn-config">
+    <img src="https://github.com/bird-studio/eslitn-config/blob/main/media/logo.png"/>
   </a>
 </p>
 
