@@ -1,0 +1,31 @@
+{
+  "name": "@bird-studio/eslint-config",
+  "version": "0.0.1",
+  "description": "eslint",
+  "keywords": [
+    "eslint"
+  ],
+  "homepage": "https://github.com/bird-studio/eslint-config",
+  "repository": "bird-studio/eslint-config",
+  "license": "MIT",
+  "author": "akira-toriyama",
+  "files": [
+    "/preset",
+    "README.md"
+  ],
+  "scripts": {
+    "prepare": "git config --local core.hooksPath .githooks"
+  },
+  "devDependencies": {
+    "@bird-studio/interactive-message": "1.1.1",
+    "@bird-studio/js-config": "1.9.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@cybozu/eslint-config": "15.0.0",
+    "eslint": "8.2.0",
+    "prettier": "2.4.1"
+  }
+}
