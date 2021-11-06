@@ -1,6 +1,11 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: ["plugin:@typescript-eslint/recommended", "plugin:jest/recommended"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:jest/recommended",
+    "prettier",
+  ],
   rules: {
     complexity: ["error", 10],
   },
