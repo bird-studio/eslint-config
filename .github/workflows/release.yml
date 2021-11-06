@@ -22,9 +22,6 @@ jobs:
       - name: Install
         run: yarn
 
-      - name: Quality check
-        run: yarn qualityCheck
-
       # カスタム
       - name: Release
         run: yarn semantic-release
