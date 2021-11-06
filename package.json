@@ -16,6 +16,10 @@
   "scripts": {
     "prepare": "git config --local core.hooksPath .githooks"
   },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.3.0",
+    "@typescript-eslint/parser": "5.3.0"
+  },
   "devDependencies": {
     "@bird-studio/interactive-message": "1.1.1",
     "@bird-studio/js-config": "1.9.0"
