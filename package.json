@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@bird-studio/interactive-message": "1.1.4",
-    "@bird-studio/js-config": "1.9.0"
+    "@bird-studio/js-config": "1.13.1"
   },
   "publishConfig": {
     "access": "public"
