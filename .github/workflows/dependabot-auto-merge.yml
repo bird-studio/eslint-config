@@ -25,9 +25,6 @@ jobs:
       - name: Install
         run: yarn
 
-      - name: Quality check
-        run: yarn qualityCheck
-
       - name: Dependabot metadata
         id: metadata
         uses: dependabot/fetch-metadata@v1.1.1
