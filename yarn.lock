@@ -4158,16 +4158,16 @@ nerf-dart@^1.0.0:
   integrity sha1-5tq3/r9a2Bbqgc9cYpxaDr3nLBo=
 
 next-pwa@^5.2.24:
-  version "5.4.0"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.4.0.tgz#61587d0d5fc3c5304f23dd4f187888c1c717ec5e"
-  integrity sha512-0tTgZsGGFAd2L151Y8Tv8gB8Q6NdWA0aHZRGRm4mHPnq06ZeVXAucVNpHcAcqALKcdp54J2puV+BQAY72tShSA==
+  version "5.4.1"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.4.1.tgz#91476f04b99a454b61a633d0363bc4670a60b49d"
+  integrity sha512-BXscfuFJKWqjnbyXNhSzBN5TN7xk4cr9fOHiXktaHZnKcRbr7zRpJnpxT3aJ7v0/cVPRqsjGCZRuwWfVk5dgeg==
   dependencies:
     babel-loader "^8.2.2"
     clean-webpack-plugin "^4.0.0"
     globby "^11.0.4"
-    terser-webpack-plugin "^5.2.4"
-    workbox-webpack-plugin "^6.3.0"
-    workbox-window "^6.3.0"
+    terser-webpack-plugin "^5.2.5"
+    workbox-webpack-plugin "^6.4.1"
+    workbox-window "^6.4.1"
 
 node-emoji@^1.10.0:
   version "1.11.0"
@@ -5666,7 +5666,7 @@ tempy@^1.0.0:
     type-fest "^0.16.0"
     unique-string "^2.0.0"
 
-terser-webpack-plugin@^5.2.4:
+terser-webpack-plugin@^5.2.5:
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-5.2.5.tgz#ce65b9880a0c36872555c4874f45bbdb02ee32c9"
   integrity sha512-3luOVHku5l0QBeYS8r4CdHYWEGMmIj3H1U64jgkdZzECcSOJAyJ9TjuqcQZvw1Y+4AOBN9SeYJPJmFn2cM4/2g==
@@ -6099,11 +6099,6 @@ workbox-cacheable-response@6.4.1:
   dependencies:
     workbox-core "6.4.1"
 
-workbox-core@6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.3.0.tgz#a7d82bae6f623f342e04028a0a2cef39af71af55"
-  integrity sha512-SufToEV3SOLwwz3j+P4pgkfpzLRUlR17sX3p/LrMHP/brYKvJQqjTwtSvaCkkAX0RPHX2TFHmN8xhPP1bpmomg==
-
 workbox-core@6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-core/-/workbox-core-6.4.1.tgz#41d181d52e86d3263d48b69253bcae66c2d7286a"
@@ -6189,7 +6184,7 @@ workbox-sw@6.4.1:
   resolved "https://registry.yarnpkg.com/workbox-sw/-/workbox-sw-6.4.1.tgz#1434e58114c2086d01c476235c11416b582101c9"
   integrity sha512-IJNYcNbjugMB9v+Yx7uswohjOaYoimw5dI0Gcaj2zrJHKjV0bom+BPRCdijmttN/3uVbX57jhNe8SMzWMj7fHw==
 
-workbox-webpack-plugin@^6.3.0:
+workbox-webpack-plugin@^6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-webpack-plugin/-/workbox-webpack-plugin-6.4.1.tgz#0da4d54e4101e2c0a421a74f9f424ccbc59bc974"
   integrity sha512-8rHQ+Q9Y1y+f1FJSUM7EEuaVsBMSFO6dbyqib3vcTZvnoTmCa4ZcThK9UXa9qTs8Q2yGACU18lm3uOm+OOKEMQ==
@@ -6201,21 +6196,13 @@ workbox-webpack-plugin@^6.3.0:
     webpack-sources "^1.4.3"
     workbox-build "6.4.1"
 
-workbox-window@6.4.1:
+workbox-window@6.4.1, workbox-window@^6.4.1:
   version "6.4.1"
   resolved "https://registry.yarnpkg.com/workbox-window/-/workbox-window-6.4.1.tgz#4d78285e57f98c3f0b98934812648c386ae433a9"
   integrity sha512-v5G1U+NN0sHErvE9fzHRA75FrfRFj/0dihFnvno5yqHZZIb9G4U2AarodSDRBC3t6CsnLO68l1Bj1gsHqsM9Qw==
   dependencies:
     "@types/trusted-types" "^2.0.2"
     workbox-core "6.4.1"
-
-workbox-window@^6.3.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/workbox-window/-/workbox-window-6.3.0.tgz#f669a0715363c35e519d1b6d919e04da7ce369ea"
-  integrity sha512-CFP84assX9srH/TOx4OD8z4EBPO/Cq4WKdV2YLcJIFJmVTS/cB63XKeidKl2KJk8qOOLVIKnaO7BLmb0MxGFtA==
-  dependencies:
-    "@types/trusted-types" "^2.0.2"
-    workbox-core "6.3.0"
 
 wrap-ansi@^7.0.0:
   version "7.0.0"
