@@ -906,20 +906,20 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@bird-studio/interactive-message@1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-1.2.2.tgz#1c3d49dc1ef9fe30c6959c15f6e44f20b07c6a0f"
-  integrity sha512-pqIX3Tjpg2NgFI0DdsNyuqdsCeFe872VDLVFk3KkJYJC7bK9+tNHQI26QMsL1Zd/YMECu/dbmhXbAXTwed31GA==
+"@bird-studio/interactive-message@1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-1.2.4.tgz#f175b35d196166a560b4cc345a196e719033415f"
+  integrity sha512-MKvNTpms+zMqI2xnyW8sl6R5+1lzn28TGIxiG/H7VuE08h9JYcprbxaoYTgket7krcjf0+gJLSJbCaF7qHNafQ==
   dependencies:
     "@octokit/rest" "18.12.0"
-    cac "6.7.11"
+    cac "6.7.12"
     chalk "4.1.2"
     cosmiconfig "7.0.1"
-    gitmojis "3.6.0"
+    gitmojis "3.8.0"
     ini "2.0.0"
     inquirer "8.2.0"
     inquirer-search-list "1.2.6"
-    table "6.7.3"
+    table "6.8.0"
 
 "@bird-studio/js-config@2.1.2":
   version "2.1.2"
@@ -1884,10 +1884,10 @@ builtins@^1.0.3:
   resolved "https://registry.yarnpkg.com/builtins/-/builtins-1.0.3.tgz#cb94faeb61c8696451db36534e1422f94f0aee88"
   integrity sha1-y5T662HIaWRR2zZTThQi+U8K7og=
 
-cac@6.7.11:
-  version "6.7.11"
-  resolved "https://registry.yarnpkg.com/cac/-/cac-6.7.11.tgz#8828e0874e578b60d839a7591567d7d5bdc7cbce"
-  integrity sha512-m4xrA2MKfid6uDV2j2+0mXrtPGxlvAW0y+7Gnn2P8WVMSG+4e4tcoYX++94ZPblPfpBccJ5e7HvKdghlX5yiDA==
+cac@6.7.12:
+  version "6.7.12"
+  resolved "https://registry.yarnpkg.com/cac/-/cac-6.7.12.tgz#6fb5ea2ff50bd01490dbda497f4ae75a99415193"
+  integrity sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==
 
 cacache@^15.0.3, cacache@^15.0.5, cacache@^15.2.0, cacache@^15.3.0:
   version "15.3.0"
@@ -2892,10 +2892,10 @@ git-log-parser@^1.2.0:
     through2 "~2.0.0"
     traverse "~0.6.6"
 
-gitmojis@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.6.0.tgz#5ac5bfe401e01d9c02262d8b394acee497fb64d9"
-  integrity sha512-VbJ7gdOBU8SVoD5r+tYnEHmVPawaDD9d4YGXEIkOz7LBLB0pMot6ltM7B4V3J4OI2JMmtURbscSNsrTLimzLjQ==
+gitmojis@3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.8.0.tgz#0134f88f80f49ec881decfc7f9d056e9854b777b"
+  integrity sha512-uO05ltW8LBIBx0bXR5OqdhSQGKIx4eFTA1pNNDEe3ilT8B40cFnywoyoRj+IpNsZaPMMvgYlS1/0qLxr+lR7+w==
   dependencies:
     next-pwa "^5.2.24"
 
@@ -5602,10 +5602,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-table@6.7.3:
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.7.3.tgz#255388439715a738391bd2ee4cbca89a4d05a9b7"
-  integrity sha512-5DkIxeA7XERBqMwJq0aHZOdMadBx4e6eDoFRuyT5VR82J0Ycg2DwM6GfA/EQAhJ+toRTaS1lIdSQCqgrmhPnlw==
+table@6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.8.0.tgz#87e28f14fa4321c3377ba286f07b79b281a3b3ca"
+  integrity sha512-s/fitrbVeEyHKFa7mFdkuQMWlH1Wgw/yEXMt5xACT4ZpzWFluehAxRtUUQKPuWhaLAWhFcVx6w3oC8VKaUfPGA==
   dependencies:
     ajv "^8.0.1"
     lodash.truncate "^4.4.2"
