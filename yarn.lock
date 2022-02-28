@@ -3739,11 +3739,11 @@ libnpmpublish@*:
     ssri "^8.0.1"
 
 libnpmsearch@*:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmsearch/-/libnpmsearch-4.0.1.tgz#bf6c96339aadb552c007373623322642a9078512"
-  integrity sha512-uSKYwVUNbI8ZOAiZIdfDL60F2MelnqVzLUdkLlAoQnK0CnlU8tsdyX+nRDCTPGqOHq0inh5DyCJKbyMxf6ibBA==
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/libnpmsearch/-/libnpmsearch-5.0.0.tgz#fd8926ac6548df4e8254e25585417a554674a88f"
+  integrity sha512-DKbQzyxQY3oBVi22ey49v9sDOk8qI1cGcQDLBk4Hf8PNUXLgOHSMFzmwUuDDzPOwrkNMuGud5GuAh0cw/6rwNw==
   dependencies:
-    npm-registry-fetch "^12.0.1"
+    npm-registry-fetch "^13.0.0"
 
 libnpmteam@*:
   version "3.0.1"
