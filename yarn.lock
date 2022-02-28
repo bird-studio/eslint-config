@@ -3751,12 +3751,12 @@ libnpmsearch@*:
     npm-registry-fetch "^13.0.0"
 
 libnpmteam@*:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-3.0.1.tgz#6cde5b7b262bf384661d1fd6ff03b3cfd378c6bc"
-  integrity sha512-qnUs2oXMYcB8AREl41Q7IUuklY5rSFW4VeVgCwE3TF+vdnsCATW4GAc/vIUZ6gWDA3lUdjqcXHlBJi8g09RRDw==
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.0.tgz#821127ff0540a3163f907a697fe7a2ad71bfb573"
+  integrity sha512-Lt6oGyMzMXUdSmJJdpC2qCthoqe/r8mqDVXncv4Dn4KdxMWoA39aoQF23xq1wJ3fbfSnqbZUAJ2xDzNkxTLRzg==
   dependencies:
     aproba "^2.0.0"
-    npm-registry-fetch "^12.0.1"
+    npm-registry-fetch "^13.0.0"
 
 libnpmversion@*:
   version "2.0.2"
