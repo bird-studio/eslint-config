@@ -1874,7 +1874,7 @@ cac@6.7.12:
   resolved "https://registry.yarnpkg.com/cac/-/cac-6.7.12.tgz#6fb5ea2ff50bd01490dbda497f4ae75a99415193"
   integrity sha512-rM7E2ygtMkJqD9c7WnFU6fruFcN3xe4FM5yUmgxhZzIKJk4uHl9U/fhwdajGFQbQuv43FAUo1Fe8gX/oIKDeSA==
 
-cacache@*, cacache@^16.0.0:
+cacache@*:
   version "16.0.1"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.1.tgz#bad1d14963d9851840da3dd6c4db3b6a3bdb585d"
   integrity sha512-tHPtfdZDqQpZ15eaEZeLspIqS5mK5fOBDZi6AjuqaIi53QNVXH3dQv6uKT3YuUu6uxV/8pjU9in0CoJ8fgaHqw==
@@ -1920,6 +1920,30 @@ cacache@^15.0.3:
     rimraf "^3.0.2"
     ssri "^8.0.1"
     tar "^6.0.2"
+    unique-filename "^1.1.1"
+
+cacache@^16.0.0:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.2.tgz#b18d630b707554d7d5ce96f53bfe845233c84933"
+  integrity sha512-Q17j7s8X81i/QYVrKVQ/qwWGT+pYLfpTcZ+X+p/Qw9FULy9JEfb2FECYTTt6mPV6A/vk92nRZ80ncpKxiGTrIA==
+  dependencies:
+    "@npmcli/fs" "^1.0.0"
+    "@npmcli/move-file" "^1.1.2"
+    chownr "^2.0.0"
+    fs-minipass "^2.1.0"
+    glob "^7.2.0"
+    infer-owner "^1.0.4"
+    lru-cache "^7.5.1"
+    minipass "^3.1.6"
+    minipass-collect "^1.0.2"
+    minipass-flush "^1.0.5"
+    minipass-pipeline "^1.2.4"
+    mkdirp "^1.0.4"
+    p-map "^4.0.0"
+    promise-inflight "^1.0.1"
+    rimraf "^3.0.2"
+    ssri "^8.0.1"
+    tar "^6.1.11"
     unique-filename "^1.1.1"
 
 call-bind@^1.0.0, call-bind@^1.0.2:
@@ -2267,7 +2291,14 @@ dateformat@^3.0.0:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-debug@4, debug@^4.0.0, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
+debug@4, debug@^4.1.0, debug@^4.3.1:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
+
+debug@^4.0.0, debug@^4.1.1, debug@^4.3.2:
   version "4.3.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
   integrity sha512-/zxw5+vh1Tfv+4Qn7a5nsbcJKPaSvCDhojn6FEl9vupwK2VCSDtEiEtqr8DFtzYFOdz63LBkxec7DYuc2jon6Q==
@@ -2400,9 +2431,9 @@ ejs@^3.1.6:
     jake "^10.6.1"
 
 electron-to-chromium@^1.4.84:
-  version "1.4.86"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.86.tgz#90fe4a9787f48d6522957213408e08a8126b2ebc"
-  integrity sha512-EVTZ+igi8x63pK4bPuA95PXIs2b2Cowi3WQwI9f9qManLiZJOD1Lash1J3W4TvvcUCcIR4o/rgi9o8UicXSO+w==
+  version "1.4.87"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.87.tgz#1aeacfa50b2fbf3ecf50a78fbebd8f259d4fe208"
+  integrity sha512-EXXTtDHFUKdFVkCnhauU7Xp8wmFC1ZG6GK9a1BeI2vvNhy61IwfNPo/CRexhf7mh4ajxAHJPind62BzpzVUeuQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -3585,9 +3616,9 @@ libnpmfund@*:
     "@npmcli/arborist" "^5.0.0"
 
 libnpmhook@*:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmhook/-/libnpmhook-8.0.1.tgz#2f6fab6a5700002fd5681461897cc23ecf835669"
-  integrity sha512-4kdii7Krt8ii9ZLP/xiU1e4Al2NtnOagVQ3/klL3+ZVBU9DVioMsr+7HB3UGdgohjwTrUSN0XhdeQJdoDjvEdg==
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/libnpmhook/-/libnpmhook-8.0.2.tgz#a0a03c09df79553516377068c91c91152be63c18"
+  integrity sha512-2Rgz+vuQEpzmgxZvnUNA6tjwPPvlwAT6DwUp+CDFlvBcFZsVGlmSrHgZRea5X1hknyqOz3or8l9REja42w7Yow==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
@@ -3751,10 +3782,15 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^7.3.1, lru-cache@^7.5.1:
+lru-cache@^7.3.1:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.6.0.tgz#33c9a9815ce6e4c0e2d5d151f6a28400770e7ce0"
   integrity sha512-zjOf6cyMI7rcN+5MtLsT4GnDjc6D9XHi8kYcsfXTqWC+yLdSiU3/jtEPX9wZE77+XLtnmdIWu3+291hkizfH+Q==
+
+lru-cache@^7.5.1:
+  version "7.7.1"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.7.1.tgz#03d2846b1ad2dcc7931a9340b8711d9798fcb0c6"
+  integrity sha512-cRffBiTW8s73eH4aTXqBcTLU0xQnwGV3/imttRHGWCrbergmnK4D6JXQd8qin5z43HnDwRI+o7mVW0LEB+tpAw==
 
 magic-string@^0.25.0, magic-string@^0.25.7:
   version "0.25.9"
