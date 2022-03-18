@@ -1922,30 +1922,6 @@ cacache@^16.0.0:
     tar "^6.1.11"
     unique-filename "^1.1.1"
 
-cacache@^16.0.0:
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-16.0.2.tgz#b18d630b707554d7d5ce96f53bfe845233c84933"
-  integrity sha512-Q17j7s8X81i/QYVrKVQ/qwWGT+pYLfpTcZ+X+p/Qw9FULy9JEfb2FECYTTt6mPV6A/vk92nRZ80ncpKxiGTrIA==
-  dependencies:
-    "@npmcli/fs" "^1.0.0"
-    "@npmcli/move-file" "^1.1.2"
-    chownr "^2.0.0"
-    fs-minipass "^2.1.0"
-    glob "^7.2.0"
-    infer-owner "^1.0.4"
-    lru-cache "^7.5.1"
-    minipass "^3.1.6"
-    minipass-collect "^1.0.2"
-    minipass-flush "^1.0.5"
-    minipass-pipeline "^1.2.4"
-    mkdirp "^1.0.4"
-    p-map "^4.0.0"
-    promise-inflight "^1.0.1"
-    rimraf "^3.0.2"
-    ssri "^8.0.1"
-    tar "^6.1.11"
-    unique-filename "^1.1.1"
-
 call-bind@^1.0.0, call-bind@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
@@ -3652,9 +3628,9 @@ libnpmpublish@*:
     ssri "^8.0.1"
 
 libnpmsearch@*:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmsearch/-/libnpmsearch-5.0.1.tgz#9b7f0f651e95e1419e40a4bb90e944650549b7de"
-  integrity sha512-O//WlHTQ/croL1oA+4oG1RQvS1O+Vu9oMQbXg78YGq1o5d37Ft11HeGi1hvHVCHTqighqRBIRm+s6RzTDlVAiQ==
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/libnpmsearch/-/libnpmsearch-5.0.2.tgz#e44bdd47a3dc85f0daab76d73235e42eb808f3fb"
+  integrity sha512-lx3qLm+vOQzdYFGfL2tNldQVN08EatkvpOLRghsWQ47Y+jINFvDe3s5unsMLLF89CfQFqdaYLJ992yQLCwDbtQ==
   dependencies:
     npm-registry-fetch "^13.0.0"
 
@@ -4464,7 +4440,7 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pacote@*, pacote@^13.0.2, pacote@^13.0.3, pacote@^13.0.5:
+pacote@*, pacote@^13.0.3, pacote@^13.0.5:
   version "13.0.5"
   resolved "https://registry.yarnpkg.com/pacote/-/pacote-13.0.5.tgz#d6f370b11112492d8257ae1178a003b36d4bb261"
   integrity sha512-6CYfot3/rUAn3qqzF2d/jrrXm5HlBtvaSgfmg0VtOUAdJ8fbSq21BJwftMGArkL71yXHIbUJ7Bt5B04547HELA==
