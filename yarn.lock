@@ -3632,13 +3632,13 @@ libnpmorg@*:
     npm-registry-fetch "^13.0.0"
 
 libnpmpack@*:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.0.1.tgz#c98111d92e440cd1fa18a0ab6384087df65947e4"
-  integrity sha512-Ozd/Hz3A+yrE3xhTc/bnoA0lnZb2HfQx0KP0sj6bXHe46hyCsmWCh8xuFXqtnH5FLwAhqI+kvd9HbV6DFACkFw==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.0.2.tgz#da12a656a3516b90171b09086498dc3b9063fe5c"
+  integrity sha512-BeRDo3isvb7g4n2aOIytEUlJg6CPTKSRuH+6GYue/CyRMXGGl6sqUWIy6Fj8fcXKAIoR2QEWOkSM5HzTWV8Liw==
   dependencies:
     "@npmcli/run-script" "^3.0.0"
-    npm-package-arg "^9.0.0"
-    pacote "^13.0.2"
+    npm-package-arg "^9.0.1"
+    pacote "^13.0.5"
 
 libnpmpublish@*:
   version "6.0.2"
@@ -3782,12 +3782,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^7.3.1:
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.6.0.tgz#33c9a9815ce6e4c0e2d5d151f6a28400770e7ce0"
-  integrity sha512-zjOf6cyMI7rcN+5MtLsT4GnDjc6D9XHi8kYcsfXTqWC+yLdSiU3/jtEPX9wZE77+XLtnmdIWu3+291hkizfH+Q==
-
-lru-cache@^7.5.1:
+lru-cache@^7.3.1, lru-cache@^7.5.1:
   version "7.7.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.7.1.tgz#03d2846b1ad2dcc7931a9340b8711d9798fcb0c6"
   integrity sha512-cRffBiTW8s73eH4aTXqBcTLU0xQnwGV3/imttRHGWCrbergmnK4D6JXQd8qin5z43HnDwRI+o7mVW0LEB+tpAw==
@@ -4469,7 +4464,7 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pacote@*, pacote@^13.0.2, pacote@^13.0.3:
+pacote@*, pacote@^13.0.2, pacote@^13.0.3, pacote@^13.0.5:
   version "13.0.5"
   resolved "https://registry.yarnpkg.com/pacote/-/pacote-13.0.5.tgz#d6f370b11112492d8257ae1178a003b36d4bb261"
   integrity sha512-6CYfot3/rUAn3qqzF2d/jrrXm5HlBtvaSgfmg0VtOUAdJ8fbSq21BJwftMGArkL71yXHIbUJ7Bt5B04547HELA==
