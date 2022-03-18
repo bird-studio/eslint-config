@@ -3632,13 +3632,13 @@ libnpmorg@*:
     npm-registry-fetch "^13.0.0"
 
 libnpmpack@*:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.0.1.tgz#c98111d92e440cd1fa18a0ab6384087df65947e4"
-  integrity sha512-Ozd/Hz3A+yrE3xhTc/bnoA0lnZb2HfQx0KP0sj6bXHe46hyCsmWCh8xuFXqtnH5FLwAhqI+kvd9HbV6DFACkFw==
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-4.0.2.tgz#da12a656a3516b90171b09086498dc3b9063fe5c"
+  integrity sha512-BeRDo3isvb7g4n2aOIytEUlJg6CPTKSRuH+6GYue/CyRMXGGl6sqUWIy6Fj8fcXKAIoR2QEWOkSM5HzTWV8Liw==
   dependencies:
     "@npmcli/run-script" "^3.0.0"
-    npm-package-arg "^9.0.0"
-    pacote "^13.0.2"
+    npm-package-arg "^9.0.1"
+    pacote "^13.0.5"
 
 libnpmpublish@*:
   version "6.0.2"
