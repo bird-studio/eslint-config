@@ -3618,9 +3618,9 @@ libnpmdiff@^4.0.2:
     tar "^6.1.0"
 
 libnpmexec@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.2.tgz#321b40c4bf77ca5e2735f5a312b270bb2eb445bf"
-  integrity sha512-3vTHWX5XfvyHa+7xrlErkNo0o+16WT0je+4pZcBBhh1Nx5NhWrTvBpyNCZAszJn4LyhKctVz/ZSTkxIZfDJBLg==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.3.tgz#8f1af808d228766d046b24632304137d64630e1c"
+  integrity sha512-71QeTdmiR/nUyNhaSdVuquD65cDrEY2lKHyewlZSmQGX5k4ApimbLnpQkAjeEB7Y9/AVPNAM7F9nrHyb/aExjQ==
   dependencies:
     "@npmcli/arborist" "^5.0.0"
     "@npmcli/ci-detect" "^2.0.0"
