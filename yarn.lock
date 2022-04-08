@@ -3594,9 +3594,9 @@ leven@^3.1.0:
   integrity sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A==
 
 libnpmaccess@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/libnpmaccess/-/libnpmaccess-6.0.2.tgz#a694908ce7ee923ac2c2c2ca4ac457d52ce61b8f"
-  integrity sha512-/o/Kdio2IO0RJq8D+1K18FlNzt8CxF5hNDCQdPivMUcQyf3sCSZiS1Z86wDXlrmRtUvmsr31SK46vmPx66zaKQ==
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/libnpmaccess/-/libnpmaccess-6.0.3.tgz#473cc3e4aadb2bc713419d92e45d23b070d8cded"
+  integrity sha512-4tkfUZprwvih2VUZYMozL7EMKgQ5q9VW2NtRyxWtQWlkLTAWHRklcAvBN49CVqEkhUw7vTX2fNgB5LzgUucgYg==
   dependencies:
     aproba "^2.0.0"
     minipass "^3.1.1"
