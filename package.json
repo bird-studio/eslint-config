@@ -17,7 +17,7 @@
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "5.21.0",
+    "@typescript-eslint/eslint-plugin": "5.22.0",
     "@typescript-eslint/parser": "5.21.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-jest": "26.1.5"
