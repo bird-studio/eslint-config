@@ -1012,9 +1012,9 @@
     fastq "^1.6.0"
 
 "@npmcli/arborist@^5.0.0", "@npmcli/arborist@^5.0.4":
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-5.2.1.tgz#4f38187cb694946f551a825df17e6efd565b8946"
-  integrity sha512-DNyTHov3lU7PtCGHABzrPqQOUiBdiYzZ5dLv3D0RD5I9KbmhTLcZI/rv3ddZY0K9vpDE/R+R48b+cU/dUkL0Tw==
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-5.2.3.tgz#3cc5d7b4bcf9783c41b6beec908d3de9592b4952"
+  integrity sha512-2ywCfbN3ibONJ2t9Ke0CXIHa20yJH6/e3Kta3ZNabnFjm+5Amr+rw5qL52mVQBKxEB+pfSiZDsnqwyKyyj0JTQ==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
     "@npmcli/installed-package-contents" "^1.0.7"
@@ -1024,7 +1024,7 @@
     "@npmcli/name-from-folder" "^1.0.1"
     "@npmcli/node-gyp" "^2.0.0"
     "@npmcli/package-json" "^2.0.0"
-    "@npmcli/run-script" "^3.0.0"
+    "@npmcli/run-script" "^4.1.3"
     bin-links "^3.0.0"
     cacache "^16.0.6"
     common-ancestor-path "^1.0.1"
@@ -1038,7 +1038,7 @@
     npm-pick-manifest "^7.0.0"
     npm-registry-fetch "^13.0.0"
     npmlog "^6.0.2"
-    pacote "^13.0.5"
+    pacote "^13.6.1"
     parse-conflict-json "^2.0.1"
     proc-log "^2.0.0"
     promise-all-reject-late "^1.0.0"
@@ -3738,18 +3738,18 @@ libnpmdiff@^4.0.2:
     tar "^6.1.0"
 
 libnpmexec@^4.0.2:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.6.tgz#600beffd6f265cf92a096a7f336f330bc0019e82"
-  integrity sha512-v1jAPJyFFex6R0YHYXuudR4liQ3tYJ7vVZ6eThOex4+WzQEnoShLVfK3MLyFbjdGNO85wCHcVWVpXaBOVnVa/w==
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.8.tgz#27be33278dec1c7cfce52e28f8814b19e31129fe"
+  integrity sha512-SKO6JCt/rL6r+ilbq315zEj2sDdZRniCJ2AvmzqMyIKW4IMuuLsOjjkcWKBV2l1Vle54ud7Tkv9IEPR2cE0mJg==
   dependencies:
     "@npmcli/arborist" "^5.0.0"
     "@npmcli/ci-detect" "^2.0.0"
-    "@npmcli/run-script" "^3.0.0"
+    "@npmcli/run-script" "^4.1.3"
     chalk "^4.1.0"
     mkdirp-infer-owner "^2.0.0"
     npm-package-arg "^9.0.1"
     npmlog "^6.0.2"
-    pacote "^13.0.5"
+    pacote "^13.6.1"
     proc-log "^2.0.0"
     read "^1.0.7"
     read-package-json-fast "^2.0.2"
