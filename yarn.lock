@@ -31,11 +31,6 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.18.8.tgz#2483f565faca607b8535590e84e7de323f27764d"
   integrity sha512-HSmX4WZPPK3FUxYp7g2T6EyO8j96HlZJlxmKPSh6KAcqwyDrfx7hKjXpAW/0FhFfTJsR0Yt4lAjLI2coMptIHQ==
 
-"@babel/compat-data@^7.18.8":
-  version "7.18.8"
-  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.18.8.tgz#2483f565faca607b8535590e84e7de323f27764d"
-  integrity sha512-HSmX4WZPPK3FUxYp7g2T6EyO8j96HlZJlxmKPSh6KAcqwyDrfx7hKjXpAW/0FhFfTJsR0Yt4lAjLI2coMptIHQ==
-
 "@babel/core@^7.11.1":
   version "7.18.2"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.18.2.tgz#87b2fcd7cce9becaa7f5acebdc4f09f3dd19d876"
@@ -2498,9 +2493,9 @@ ejs@^3.1.6:
     jake "^10.8.5"
 
 electron-to-chromium@^1.4.188:
-  version "1.4.199"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.199.tgz#e0384fde79fdda89880e8be58196a9153e04db3b"
-  integrity sha512-WIGME0Cs7oob3mxsJwHbeWkH0tYkIE/sjkJ8ML2BYmuRcjhRl/q5kVDXG7W9LOOKwzPU5M0LBlXRq9rlSgnNlg==
+  version "1.4.200"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.200.tgz#6e4c5266106688965b4ea7caa11f0dd315586854"
+  integrity sha512-nPyI7oHc8T64oSqRXrAt99gNMpk0SAgPHw/o+hkNKyb5+bcdnFtZcSO9FUJES5cVkVZvo8u4qiZ1gQILl8UXsA==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
