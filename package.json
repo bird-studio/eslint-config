@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@bird-studio/interactive-message": "5.0.2",
-    "@bird-studio/js-config": "3.6.1",
+    "@bird-studio/js-config": "3.6.28",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "8.0.5",
     "@semantic-release/npm": "9.0.1",
