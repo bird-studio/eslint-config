@@ -1,5 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
+  reportUnusedDisableDirectives: true,
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
