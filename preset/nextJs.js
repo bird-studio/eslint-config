@@ -5,14 +5,26 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "plugin:jest/recommended",
     "next/core-web-vitals",
+    "plugin:import/typescript",
     "prettier",
   ],
-  plugins: ["use-encapsulation"],
+  plugins: ["use-encapsulation", "import"],
   rules: {
     complexity: ["error", 10],
-    "use-encapsulation/prefer-custom-hooks": ["error"],
   },
   overrides: [
+    {
+      files: ["*.tsx"],
+      rules: {
+        "use-encapsulation/prefer-custom-hooks": ["error"],
+      },
+    },
+    {
+      files: ["*.stories.tsx"],
+      rules: {
+        "use-encapsulation/prefer-custom-hooks": ["off"],
+      },
+    },
     {
       files: [".eslintrc.js", "*.config.js"],
       rules: {
@@ -24,12 +36,6 @@ module.exports = {
       files: ["*.test.ts"],
       rules: {
         "@typescript-eslint/ban-ts-comment": "off",
-      },
-    },
-    {
-      files: ["*.stories.tsx"],
-      rules: {
-        "use-encapsulation/prefer-custom-hooks": ["off"],
       },
     },
   ],
