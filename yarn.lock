@@ -382,7 +382,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@npmcli/arborist@^5.6.1", "@npmcli/arborist@^5.6.2":
+"@npmcli/arborist@^5.6.2":
   version "5.6.2"
   resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-5.6.2.tgz#552b554f34777e5dcc8e68ad86cdaeebc0788790"
   integrity sha512-Lyj2g+foWKzrwW2bT/RGO982VR9vb5tlvfD88n4PwWJRrDttQbJoIdcQzN9b+NIBhI1/8iEhC5b8far9U0fQxA==
@@ -3054,7 +3054,7 @@ libnpmdiff@^4.0.5:
     pacote "^13.6.1"
     tar "^6.1.0"
 
-libnpmexec@^4.0.12:
+libnpmexec@^4.0.13:
   version "4.0.13"
   resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.13.tgz#6688bd6c02cac31a32d2e56680c3884948cbf453"
   integrity sha512-MGi6eD6zqZ1V8VCJenWRc2+rWaFiW/Vkr5Aa/cQAd3duWNvXen9sm101M6ww5ER5PmsT+qX2aZOA3A9ZPfJQXg==
@@ -3074,12 +3074,12 @@ libnpmexec@^4.0.12:
     semver "^7.3.7"
     walk-up-path "^1.0.0"
 
-libnpmfund@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-3.0.3.tgz#334a3bb58c64ad18803056373545f6528b04dceb"
-  integrity sha512-vIlrudn2vzCQ8YRiImh/Kcf6/igjITDNqJPm2ifQDLJIrtqHc22BQb1SCyH+bajHL/DVHzGKD4VuxUtLHT641w==
+libnpmfund@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-3.0.4.tgz#be1fd46bcfa9432660f98d935135d7ee3e620239"
+  integrity sha512-azKUVFkL27AsvzEzLKMHX/L8j/GE2TL6eZ6KIdc9hsvleoNLT+Y6XO9w9v7JWwg03smZK9dbqwvnYZzO3vzrIA==
   dependencies:
-    "@npmcli/arborist" "^5.6.1"
+    "@npmcli/arborist" "^5.6.2"
 
 libnpmhook@^8.0.4:
   version "8.0.4"
@@ -3802,12 +3802,12 @@ npm-user-validate@^1.0.1:
   integrity sha512-uQwcd/tY+h1jnEaze6cdX/LrhWhoBxfSknxentoqmIuStxUExxjWd3ULMLFPiFUrZKbOVMowH6Jq2FRWfmhcEw==
 
 npm@^8.3.0:
-  version "8.19.1"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-8.19.1.tgz#78bfc5fc1b7bc36881a2d9d1f2c93ad0246f31e5"
-  integrity sha512-FtWzipzng+NmtTQDXSCvA9D7H4d7vkA7ciahmY89fGK/Eo95pbnKn0hatEUfomj1jUDEXvAEi/tKiQ2nrAc7Jg==
+  version "8.19.2"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-8.19.2.tgz#db90e88584d065f51b069ab46b4f02f5cf4898b7"
+  integrity sha512-MWkISVv5f7iZbfNkry5/5YBqSYJEDAKSJdL+uzSQuyLg+hgLQUyZynu3SH6bOZlvR9ZvJYk2EiJO6B1r+ynwHg==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
-    "@npmcli/arborist" "^5.6.1"
+    "@npmcli/arborist" "^5.6.2"
     "@npmcli/ci-detect" "^2.0.0"
     "@npmcli/config" "^4.2.1"
     "@npmcli/fs" "^2.1.0"
@@ -3834,8 +3834,8 @@ npm@^8.3.0:
     json-parse-even-better-errors "^2.3.1"
     libnpmaccess "^6.0.4"
     libnpmdiff "^4.0.5"
-    libnpmexec "^4.0.12"
-    libnpmfund "^3.0.3"
+    libnpmexec "^4.0.13"
+    libnpmfund "^3.0.4"
     libnpmhook "^8.0.4"
     libnpmorg "^4.0.4"
     libnpmpack "^4.1.3"
