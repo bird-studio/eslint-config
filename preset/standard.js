@@ -8,6 +8,7 @@ module.exports = {
     "plugin:import/typescript",
     "prettier",
   ],
+  plugins: ["import"],
   rules: {
     complexity: ["error", 10],
   },
