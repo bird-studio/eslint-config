@@ -4,14 +4,12 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:jest/recommended",
     "next/core-web-vitals",
-    "plugin:import/typescript",
     "prettier",
   ],
-  plugins: ["use-encapsulation", "import"],
+  plugins: ["use-encapsulation", "vitest"],
   rules: {
-    complexity: ["error", 10],
+    complexity: ["error", 7],
   },
   overrides: [
     {
