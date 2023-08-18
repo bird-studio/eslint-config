@@ -242,12 +242,12 @@
     "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-invert@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-invert/-/plugin-invert-0.16.2.tgz#6ca4f7b204c5d674d093d9aa4c32bf20a924a0ee"
-  integrity sha512-xFvHbVepTY/nus+6yXiYN1iq+UBRkT0MdnObbiQPstUrAsz0Imn6MWISsnAyMvcNxHGrxaxjuU777JT/esM0gg==
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-invert/-/plugin-invert-0.16.13.tgz#7449283d5b0f405ce2cd1b93a6d79169c970e431"
+  integrity sha512-xFMrIn7czEZbdbMzZWuaZFnlLGJDVJ82y5vlsKsXRTG2kcxRsMPXvZRWHV57nSs1YFsNqXSbrC8B98n0E32njQ==
   dependencies:
     "@babel/runtime" "^7.7.2"
-    "@jimp/utils" "^0.16.2"
+    "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-mask@^0.16.2":
   version "0.16.13"
