@@ -186,12 +186,12 @@
     "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-cover@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-cover/-/plugin-cover-0.16.2.tgz#c4aadfaad718a14838219889936ad39a18021df4"
-  integrity sha512-gzWM7VvYeI8msyiwbUZxH+sGQEgO6Vd6adGxZ0CeKX00uQOe5lDzxb1Wjx7sHcJGz8a/5fmAuwz7rdDtpDUbkw==
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-cover/-/plugin-cover-0.16.13.tgz#9c964be05b163e0f0e06866a9afcebe775dff246"
+  integrity sha512-BSsP71GTNaqWRcvkbWuIVH+zK7b3TSNebbhDkFK0fVaUTzHuKMS/mgY4hDZIEVt7Rf5FjadAYtsujHN9w0iSYA==
   dependencies:
     "@babel/runtime" "^7.7.2"
-    "@jimp/utils" "^0.16.2"
+    "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-crop@^0.16.2":
   version "0.16.2"
