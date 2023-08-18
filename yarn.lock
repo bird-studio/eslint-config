@@ -207,12 +207,12 @@
     "@jimp/utils" "^0.16.2"
 
 "@jimp/plugin-displace@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-displace/-/plugin-displace-0.16.2.tgz#e4852c48f4b2095a4bcc61c8c1a5faa9618773ef"
-  integrity sha512-6nXdvNNjCdD95v2o3/jPeur903dz08lG4Y8gmr5oL2yVv9LSSbMonoXYrR/ASesdyXqGdXJLU4NL+yZs4zUqbQ==
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-displace/-/plugin-displace-0.16.13.tgz#fd72aa93b3fe97a1c3da729e6b26399661ce8ce5"
+  integrity sha512-qt9WKq8vWrcjySa9DyQ0x/RBMHQeiVjdVSY1SJsMjssPUf0pS74qorcuAkGi89biN3YoGUgPkpqECnAWnYwgGA==
   dependencies:
     "@babel/runtime" "^7.7.2"
-    "@jimp/utils" "^0.16.2"
+    "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-dither@^0.16.2":
   version "0.16.13"
