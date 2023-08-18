@@ -379,9 +379,9 @@
     pngjs "^3.3.3"
 
 "@jimp/tiff@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@jimp/tiff/-/tiff-0.16.2.tgz#613870065fe1387f6a09fe9d8230c00c35b7b640"
-  integrity sha512-ADcdqmtZF+U2YoaaHTzFX8D6NFpmN4WZUT0BPMerEuY7Cq8QoLYU22z2h034FrVW+Rbi1b3y04sB9iDiQAlf2w==
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@jimp/tiff/-/tiff-0.16.13.tgz#9cf8d19f2b0b0c46758e81acfc7d656835ee6da1"
+  integrity sha512-oJY8d9u95SwW00VPHuCNxPap6Q1+E/xM5QThb9Hu+P6EGuu6lIeLaNBMmFZyblwFbwrH+WBOZlvIzDhi4Dm/6Q==
   dependencies:
     "@babel/runtime" "^7.7.2"
     utif "^2.0.1"
