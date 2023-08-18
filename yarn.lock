@@ -258,12 +258,12 @@
     "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-normalize@^0.16.2":
-  version "0.16.2"
-  resolved "https://registry.yarnpkg.com/@jimp/plugin-normalize/-/plugin-normalize-0.16.2.tgz#e36a8ecaea6acb4711c543212863a570fe19901f"
-  integrity sha512-+ItBWFwmB0Od7OfOtTYT1gm543PpHUgU8/DN55z83l1JqS0OomDJAe7BmCppo2405TN6YtVm/csXo7p4iWd/SQ==
+  version "0.16.13"
+  resolved "https://registry.yarnpkg.com/@jimp/plugin-normalize/-/plugin-normalize-0.16.13.tgz#fd7c802c3f6be8d34abf0dbeadfe1d783e531d67"
+  integrity sha512-3tfad0n9soRna4IfW9NzQdQ2Z3ijkmo21DREHbE6CGcMIxOSvfRdSvf1qQPApxjTSo8LTU4MCi/fidx/NZ0GqQ==
   dependencies:
     "@babel/runtime" "^7.7.2"
-    "@jimp/utils" "^0.16.2"
+    "@jimp/utils" "^0.16.13"
 
 "@jimp/plugin-print@^0.16.2":
   version "0.16.13"
