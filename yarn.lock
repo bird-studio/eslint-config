@@ -635,9 +635,9 @@
     which "^4.0.0"
 
 "@npmcli/query@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@npmcli/query/-/query-3.0.0.tgz#51a0dfb85811e04f244171f164b6bc83b36113a7"
-  integrity sha512-MFNDSJNgsLZIEBVZ0Q9w9K7o07j5N4o4yjtdz2uEpuCZlXGMuPENiRaFYk0vRqAA64qVuUQwC05g27fRtfUgnA==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@npmcli/query/-/query-3.0.1.tgz#77d63ceb7d27ed748da3cc8b50d45fc341448ed6"
+  integrity sha512-0jE8iHBogf/+bFDj+ju6/UMLbJ39c8h6nSe6qile+dB7PJ0iV3gNqcb2vtt6WWCBrxv9uAjzUT/8vroluulidA==
   dependencies:
     postcss-selector-parser "^6.0.10"
 
