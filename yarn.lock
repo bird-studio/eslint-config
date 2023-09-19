@@ -413,9 +413,9 @@
     socks-proxy-agent "^8.0.1"
 
 "@npmcli/arborist@^6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-6.3.0.tgz#df37c79f7b82a2de8986fb9061b40efb4d188a38"
-  integrity sha512-XrS14qBDhK95RdGhjTSx8AgeZPNah949qp3b0v3GUFOugtPc9Z85rpWid57mONS8gHbuGIHjFzuA+5hSM7BuBA==
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-6.4.0.tgz#0d57f9ad6b908794ada8dfd15ec3bf355a491274"
+  integrity sha512-1HGjcL5l4aFCyx7IhXChYbgOUigVTUhKgfxkxle3Xo94azPLJGEXo11B7MFCSzr0bpT9hoCpP/6QbqgwfIbsdw==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
     "@npmcli/fs" "^3.1.0"
@@ -435,7 +435,7 @@
     json-stringify-nice "^1.1.4"
     minimatch "^9.0.0"
     nopt "^7.0.0"
-    npm-install-checks "^6.0.0"
+    npm-install-checks "^6.2.0"
     npm-package-arg "^10.1.0"
     npm-pick-manifest "^8.0.1"
     npm-registry-fetch "^14.0.3"
