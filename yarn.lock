@@ -3515,12 +3515,12 @@ libnpmorg@^6.0.1:
     npm-registry-fetch "^16.0.0"
 
 libnpmpack@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-6.0.2.tgz#8e2f4a5c8a4ce881fe9e0ac36b69f1640179f00b"
-  integrity sha512-4/kWJcX1yduzdiKQkT7CEexw7FBuI41opjG8m3m/SqTmhXumJD0HmfTF5k78S2vTzCl3kk+KiwJdM/ev5RWRwg==
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/libnpmpack/-/libnpmpack-6.0.3.tgz#65df2f32c524e381010617fc9c34afbf7d52a5b4"
+  integrity sha512-+XV6/KVGYJ2TvqeJfBhSJgrXWV3OiFPYCKGavNwNBFmAtRRrj7OoV6a/+C0HDo7D0PFEDktdBHW47EciUgHx+g==
   dependencies:
-    "@npmcli/arborist" "^7.2.0"
-    "@npmcli/run-script" "^7.0.1"
+    "@npmcli/arborist" "^7.2.1"
+    "@npmcli/run-script" "^7.0.2"
     npm-package-arg "^11.0.1"
     pacote "^17.0.4"
 
